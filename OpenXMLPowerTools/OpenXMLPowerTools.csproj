@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>OpenXMLPowerTools</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="XMLTools.cs" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.9.1" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\HtmlToOpenXml\HtmlToOpenXml.csproj" />
+  </ItemGroup>
+
+</Project>
