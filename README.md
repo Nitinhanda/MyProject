@@ -1,17 +1,18 @@
-Combines Office OpenXMLPowerTools with HtmlToOpenXML 
+<b>Combines Office OpenXMLPowerTools with HtmlToOpenXML</b> 
 
-Problem Statement-
+<b>Problem Statement<b>
+   
    The Current OpenXMLTools Document Assembler doesn't have feature to replace html tags within data with Word formatted strings. 
    On of the client project has requirements to enter product information such as name, description, price and features through a web      portal and generate the pre-defined structured reports with those information. The product decription and features section in the        portal, is having WYSIWYG Editors. So OpenXMLPowerTools was not rendering those html tags in the generated reports. So there a need      the way to format the information.
    
-Solution
+<b>Solution<b>
 
    Combine the OpenXMLPowerTools and a library called HtmlToOpenXML in a way that those html tags can be formatted in the generated document.
 
-Build Instructions
+<b>Build Instructions</b>
   Prerequisites: Visual Studio 2017 Update 5 or .NET CLI toolchain
 
-Build
+<b>Build</b>
 
   With Visual Studio:
 
