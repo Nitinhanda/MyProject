@@ -15,14 +15,14 @@
 
 <b>Build</b>
 
-  With Visual Studio:
+  <i>With Visual Studio:</i>
 
    Open OpenXmlPowerTools.sln in Visual Studio
    Rebuild the projects
    Build the solution.
    To run an example, set the OpenXMLPowerToolTest as the startup project, and press F5.
 
-  With .NET CLI toolchain:
+  <i>With .NET CLI toolchain:</i>
 
    Run dotnet build OpenXmlPowerTools.sln
    
