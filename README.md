@@ -3,7 +3,7 @@
 <b>Problem Statement</b>
    
    The Current OpenXMLPowerTools Document Assembler doesn't have feature to replace html tags within data with Word formatted strings. 
-   On of the client project has requirements to enter product information such as name, description, price and features through a web      portal and generate the pre-defined structured reports with those information. The product decription and features section in the        portal, is having WYSIWYG Editors. So OpenXMLPowerTools was not rendering those html tags in the generated reports. So there a need      the way to format the information.
+   One of the client project has requirements to enter product information such as name, description, price and features through a web      portal and generate the pre-defined structured reports with those information. The product decription and features section in the        portal, is having WYSIWYG Editors. So OpenXMLPowerTools was not rendering those html tags in the generated reports. So there a need      the way to format the information.
    
 <b>Solution</b>
 
