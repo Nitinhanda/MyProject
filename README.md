@@ -28,5 +28,5 @@
    
  <b>Template Example</b>
  
-   ExampleTemplates folder contains the example template (.dotx) to test. To make any bookmark tag as html formatted add attribute          Html="true" in the Content Controls. 
+   ExampleTemplates folder contains the example template (.dotx) to test. To make any Content Control as html formatted add attribute          Html="true". 
    For example <pre>&lt;Content Select="./Test" Html="true"/&gt;</pre>
